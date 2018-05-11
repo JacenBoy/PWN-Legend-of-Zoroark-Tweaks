@@ -58,3 +58,9 @@ u a:hover {
 .logo-image {
     max-height: 20em !important;
 }
+
+.body_wrapper {
+    background: black;
+    border: 1px dashed #F62217;
+    border-bottom: none;
+}
