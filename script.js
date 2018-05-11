@@ -25,7 +25,7 @@
     console.log("Stylesheet applied");
 
     var i = 0;
-    while (i < document.getElementsByClassName("nodecontrols").length) {
+    while (i <= document.getElementsByClassName("nodecontrols").length - 1) {
         document.getElementsByClassName("nodecontrols")[i].innerHTML = '<a onclick="window.scrollTo(0, 0)">Top</a>&nbsp;' + document.getElementsByClassName("nodecontrols")[i].innerHTML;
         i++;
     }
