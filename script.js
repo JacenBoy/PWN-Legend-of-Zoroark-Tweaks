@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         PWN Legend of Zoroark Tweaks Prerelease
+// @name         PWN Legend of Zoroark Tweaks
 // @namespace    http://jacenboy.ml/
 // @version      1.1
 // @description  Tweaks to make PWN's Legend of Zoroark theme better
