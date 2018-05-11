@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PWN Legend of Zoroark Tweaks Prerelease
 // @namespace    http://jacenboy.ml/
-// @version      1.0
+// @version      1.1
 // @description  Tweaks to make PWN's Legend of Zoroark theme better
 // @author       JacenBoy
 // @match        *forums.petalburgwoods.com/*
@@ -14,7 +14,7 @@
     console.log("PWN Tweaks loaded");
     
 
-    var stylesheet = "https://raw.githubusercontent.com/JacenBoy/PWN-Legend-of-Zoroark-Tweaks/master/style.css";
+    var stylesheet = "https://gitcdn.xyz/repo/JacenBoy/PWN-Legend-of-Zoroark-Tweaks/master/style.css";
     
     var link = document.createElement( "link" );
     link.href = stylesheet;
