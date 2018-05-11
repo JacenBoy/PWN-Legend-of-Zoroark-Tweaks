@@ -23,4 +23,10 @@
 
     document.getElementsByTagName( "head" )[0].appendChild( link );
     console.log("Stylesheet applied");
+
+    var i = 0;
+    while (i <= document.getElementsByClassName("nodecontrols").length) {
+        document.getElementsByClassName("nodecontrols")[i].innerHTML = '<a onclick="window.scrollTo(0, 0)">Top</a>&nbsp;' + document.getElementsByClassName("nodecontrols")[i].innerHTML;
+        i++;
+    }
 })();
