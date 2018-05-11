@@ -13,7 +13,8 @@
     
     console.log("PWN Tweaks loaded");
     
-    var stylesheet = "https://raw.githubusercontent.com/JacenBoy/PWN-Legend-of-Zoroark-Tweaks/prerelease/style.css";
+
+    var stylesheet = "https://raw.githubusercontent.com/JacenBoy/PWN-Legend-of-Zoroark-Tweaks/master/style.css";
     
     var link = document.createElement( "link" );
     link.href = stylesheet;
