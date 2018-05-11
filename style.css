@@ -1,0 +1,60 @@
+div.postrow a {
+    color: #f78980;
+}
+
+div.postrow a:hover {
+    color: #F62817;
+}
+
+.popupbody {
+    background-color: black !important;
+}
+
+.deleted, .deleted a {
+    color: black !important;
+}
+
+.postbitdeleted .userinfo, .postbitdeleted .userinfo a, .postbitdeleted .postrow {
+    color: black !important;
+}
+
+.postbitdeleted .userinfo a {
+    font-weight: bold;
+}
+
+.postbitdeleted .userinfo a:hover {
+    font-weight: bold;
+    color: #F62817 !important;
+}
+
+.postbitdeleted .postrow a {
+    color: #565051;
+}
+
+.section .blockrow {
+    color: black;
+}
+
+.moresmilies a {
+    color: black;
+}
+
+u a {
+    color: #E5E4E2 !important;
+}
+
+u a:hover {
+    color: #F62817 !important;
+}
+
+#posting_rules, .showsignature, .shade, #icon_legends, #forum_display_options, #forum_moderators h5, #forumrules {
+    color: white;
+}
+
+#posting_rules a, #forumrules a {
+    font-weight: bold;
+}
+
+.logo-image {
+    max-height: 20em !important;
+}
