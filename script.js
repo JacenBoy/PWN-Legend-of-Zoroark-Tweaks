@@ -10,6 +10,17 @@
 
 (function() {
     'use strict';
-
+    
     console.log("PWN Tweaks loaded");
+    
+    var stylesheet = "https://cdn.rawgit.com/JacenBoy/PWN-Legend-of-Zoroark-Tweaks/550b5a6f/style.css";
+    
+    var link = document.createElement( "link" );
+    link.href = stylesheet;
+    link.type = "text/css";
+    link.rel = "stylesheet";
+    link.media = "screen,print";
+
+    document.getElementsByTagName( "head" )[0].appendChild( link );
+    console.log("Stylesheet applied");
 })();
