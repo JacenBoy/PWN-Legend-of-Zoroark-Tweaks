@@ -58,3 +58,10 @@ u a:hover {
 .logo-image {
     max-height: 20em !important;
 }
+
+.breadcrumb {
+    background: black;
+    padding: 3px 10px;
+    border: 1px dashed #F62217;
+    border-bottom: none;
+}
